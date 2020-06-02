@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hairstudio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="sticky-top">
+        <div class="title_color title_size title_font">
+        Haarbracadabra
+        </div>
+    <!-- Navigation bar -->
+        <ul class="nav justify-content-end navigation_bar">
+            <li class="nav-item">
+                <a class="nav-link active text-dark" href="#our_services">Our services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#appointment">Make an appointment</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link text-dark" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+<!-- Main Slider -->
+    <div class="container-fluid color bg-white">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="1000">
+                    <img src="media/elephant.jpg" class="d-block mx-auto w-25" alt="elephant">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img src="media/dog_2.jpg" class="d-block mx-auto w-25" alt="Dog">
+                </div>
+            <div class="carousel-item">
+                <img src="media/hog.jpg" class="d-block mx-auto w-25" alt="Hog">
+            </div>
+      </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  <br>
+<!-- Services / Scales -->
+    <div class="headline_1 title_font">
+    <h1>Our services</h1>
+    </div>
+  <br>
+        <div class="card-deck">
+          <div class="card">
+            <img src="media/lion.jpg" class="card-img-top" alt="Styling example lionhead">
+            <div class="card-body">
+              <h5 class="card-title">STYLING</h5>
+                <!-- p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p -->
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/colouring.jpg" class="card-img-top" alt="hair colouring example">
+            <div class="card-body">
+              <h5 class="card-title">COLOURING</h5>
+                <!-- p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p -->
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/cutting.jpg" class="card-img-top" alt="Colouring example">
+            <div class="card-body">
+              <h5 class="card-title">HAIRCUTS</h5>
+                <!-- p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p -->
+            </div>
+          </div>
+        </div>
+<!-- Appointment / form -->
+  <br>
+     <div id="appointment" class="headline_1 title_font">
+        <h1>Make an appointment</h1>
+    </div>
+    <div class="align">
+  <br>
+        <form class="w-50">
+          <div class="form-col">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First and last name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Phone number">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Date">
+            </div>
+             <div class="col">
+              <input type="text" class="form-control" placeholder="Other info (haircut wishes, etc">
+            </div>
+
+  <br>
+              <button type="submit" class="btn btn-secondary btn-lg">Send</button>
+        </form>
+    </div>
+  <br>
+<!-- table / opening hours -->
+    <table class="table table-bordered table-dark w-25">
+        <thead>
+            <tr>
+                <th scope="col">DAY</th>
+                <th scope="col">Working Hours</th>
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>8.00 - 16.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td>10.00 - 18.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td colspan="2">8.00 - 16.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Thursday</th>
+              <td colspan="2">8.00 - 16.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td colspan="2">12.00 - 20.00</td>
+            </tr>
+              <tr>
+              <th scope="row">Saturday</th>
+              <td colspan="2">8.00 - 16.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Sunday</th>
+              <td colspan="2">8.00 - 12.00</td>
+            </tr>
+         </tbody>
+    </table>
+    </div>
+  <br>
+<!-- FAQs -->
+      <div class="headline_1 title_font">
+             <h1 id="faq">FAQ (frequently asked questions)</h1>
+      </div>
+      <br>
+      <div class="faq">
+            <p>
+                <a class="btn btn-secondary shadow-lg p-3 mb-3 bg-dark rounded" data-toggle="collapse" href="#collapseExample_1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Do you you have gift certificates
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample_1">
+                <div class="card card-body">
+             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+            <p>
+                <a class="btn btn-secondary shadow-lg p-3 mb-3 bg-dark rounded" data-toggle="collapse" href="#collapseExample_2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Can I bring my pet along?
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample_2">
+                <div class="card card-body">
+             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+            <p>
+                <a class="btn btn-secondary shadow-lg p-3 mb-3 bg-dark rounded" data-toggle="collapse" href="#collapseExample_3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                What awards did you recieve so far?
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample_3">
+                <div class="card card-body">
+             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+      </div>
+<!-- Footer -->
+    <div class="card bg-white">
+        <div class="card-body footer_contact margin_bottom">
+           <div class="headline_1 title_font">
+               <h1 id="contact">Contact</h1></div>
+            <div class="d-flex justify-content-center">
+                   Haarbracadabra GmbH
+                   <br>
+                   Tax-id: 123456789
+                   <br>
+                   Yellow Brick Road 5, 1001 Oz
+                   <br>
+                   Phone: 987654321
+                    <br>
+                   Mail:
+                    <a href="haarbradacbra@gmail.com" class="card-link">haarbradacbra@gmail.com</a>
+
+            </div>
+    </div>
+</div>
+
+
+</body>
+</html>

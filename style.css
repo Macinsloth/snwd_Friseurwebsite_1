@@ -1,0 +1,109 @@
+.navigation_bar {
+
+    background-color: white;
+    heigth: 50px;
+    display: flex;
+
+}
+
+.text_black {
+    font-color: black;
+}
+
+.title_font {
+    font-family: Monoton;
+}
+.title_size {
+    font-size: 85px;
+}
+.title_color {
+      color:#313131;
+      -webkit-animation:colorchange 20s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+
+        color: blue;
+      }
+
+      10% {
+
+        color: #8e44ad;
+      }
+
+      20% {
+
+        color: #1abc9c;
+      }
+
+      30% {
+
+        color: #d35400;
+      }
+
+      40% {
+
+        color: blue;
+      }
+
+      50% {
+
+        color: #34495e;
+      }
+
+      60% {
+
+        color: blue;
+      }
+
+      70% {
+
+        color: #2980b9;
+      }
+      80% {
+
+        color: #f1c40f;
+      }
+
+      90% {
+
+        color: #2980b9;
+      }
+
+      100% {
+
+        color: pink;
+      }
+    }
+
+.align {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.faq {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_contact {
+
+    display: flex;
+    flex-flow: column;
+    position: relalative
+}
+
+margin_bottom {
+    margin-bottom: 1;
+}
